@@ -1,0 +1,38 @@
+<!--
+    T
+-->
+
+<!DOCTYPE html>
+<html> 
+    <head>
+        
+    </head>
+    <body>
+        <h1>Tablo Bicimlendirme</h1>
+        <ul><li>Tablolar 4 kisimdan olusur</li>
+            <li> caption: Baslik kismi</li>
+            <li> thead: tablonun ilk satiridir </li>
+            <li> tbody: tablonun bilgilerini iceren govdesidir </li>
+            <li> tfoot: tablonun en alt satiridir </li>
+            <li> Bu etiketleri kullanmanin amaci tabloyu parcalara ayirdigi icin herbir kismini farkli sekilde bicimlendirebiliriz</li>
+            <li>Ornegin sadece basliki kirmizi yapmak</li>
+            <li>Hucreleri birlestirmek icin colspan veya rowspan komutu kullanilir</li>
+            <li>colspan satirdaki hucreleri birlestirirken rowspan sutunlari birlestirir</li>
+        </ul>
+
+        <table border="5">
+            <caption style="color: brown;">Turkiye Il Plakalari</caption>
+            <thead style="color: blue;"><tr> <th>Ilin ismi</th> <th>Il Plakasi</th> </tr></thead>
+            <tbody>
+                <tr><td >Adana</td> <td>01</td></tr>
+                <tr><td>Konya</td> <td>42</td></tr>
+                <tr><td>Istanbul</td> <td>34</td></tr>
+            </tbody>
+            <tfoot>
+                <tr><td colspan="2">Toplam Il Sayisi: 3 </td></tr>
+            </tfoot>
+        </table>
+
+
+    </body>
+</html>
